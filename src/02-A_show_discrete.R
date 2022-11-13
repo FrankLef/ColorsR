@@ -3,8 +3,6 @@ colrs <- list()
 colrs$darkunica <- "#2a2a2b"
 
 
-
-
 # discrete ----------------------------------------------------------------
 
 unique(paletteer::palettes_d_names$package)
@@ -141,41 +139,10 @@ scales::show_col(pal_test)
 pal_test <- paletteer::paletteer_c("grDevices::Tofino", n = 16)
 scales::show_col(pal_test)
 
-
-# clients -----------------------------------------------------------------
-
-# create the client palette
-# pal_test <- paletteer::paletteer_d("LaCroixColoR::PassionFruit")
-# clients_pal <- col_factor(
-#   palette = as.character(pal_test),
-#   domain = NULL)(levels(clean_projets$clientgrp1_desc))
-# scales::show_col(clients_pal)
-# clients_pal
-
-# create the clients by year palette
-# clients_years_pal <- lapply(clients_pal, FUN = function(x, amt = 0.25) {
-#   c(colorspace::lighten(x, amount = amt),
-#     x,
-#     colorspace::darken(x, amount = amt))
-# })
-# clients_years_pal
-# clients_years_pal <- unlist(clients_years_pal)
-# scales::show_col(clients_years_pal)
-
-# create the clients by value by year palette
-# clients_years_val_pal <- lapply(clients_years_pal, FUN = function(x, amt = 0.3) {
-#   col <- c(colorspace::lighten(x, amount = amt),
-#            x)
-# })
-# clients_years_val_pal
-# clients_years_val_pal <- unlist(clients_years_val_pal)
-# clients_years_val_pal
-# scales::show_col(clients_years_val_pal)
+pal_test <- paletteer::paletteer_c("grDevices::Blues", n = 16)
+scales::show_col(pal_test)
 
 
-# machine clusters --------------------------------------------------------
-
-# clus_mach <- c("clust 1", "clus 2", " clus 3")
 
 
 # finalize ----------------------------------------------------------------

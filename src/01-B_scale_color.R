@@ -1,4 +1,4 @@
-# create a color function wih scales
+# create a color function with scales
 pal <- paletteer::paletteer_d("jcolors::rainbow", direction = 1)
 pal <- paletteer::paletteer_d("ggthemes::calc", direction = -1)
 pal <- unclass(pal)

@@ -5,7 +5,6 @@
 # https://www.rgbtohex.net
 
 col_name <- "violet"
-col_name <- "black"
 col_hex <- gplots::col2hex(col_name)
 col_hex
 scales::show_col(col_hex)
