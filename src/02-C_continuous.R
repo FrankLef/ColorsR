@@ -10,6 +10,9 @@ sort(paletteer::palettes_c_names$palette[paletteer::palettes_c_names$package == 
 pal_test <- paletteer::paletteer_c("oompaBase::bluescale", n = 16)
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_c("oompaBase::greyscale", n = 16)
+scales::show_col(pal_test)
+
 # very nice rainbow-like
 pal_test <- paletteer::paletteer_c("oompaBase::jetColors", n = 16)
 scales::show_col(pal_test)
