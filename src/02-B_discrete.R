@@ -14,6 +14,12 @@ scales::show_col(pal_test)
 pal_test <- paletteer::paletteer_d("ggsci::category20_d3")
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_d("ggsci::category20b_d3")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("ggsci::category20c_d3")
+scales::show_col(pal_test)
+
 pal_test <- paletteer::paletteer_d("ggsci::nrc_npg")
 scales::show_col(pal_test)
 
@@ -30,11 +36,17 @@ scales::show_col(pal_test)
 pal_test <- paletteer::paletteer_d("ggsci::default_igv")
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_d("ggsci::schwifty_rickandmorty")
+scales::show_col(pal_test)
+
 # this is the "material" series with graduations of single colors
 pal_test <- paletteer::paletteer_d("ggsci::teal_material")
 scales::show_col(pal_test)
 
 pal_test <- paletteer::paletteer_d("ggsci::indigo_material")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("ggsci::deep_orange_material")
 scales::show_col(pal_test)
 
 # khroma ------------------------------------------------------------------
@@ -51,6 +63,12 @@ scales::show_col(pal_test)
 pal_test <- paletteer::paletteer_d("khroma::discrete_rainbow")
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_d("khroma::smooth_rainbow")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("khroma::contrast")
+scales::show_col(pal_test)
+
 # ggthemes ----------------------------------------------------------------
 
 sort(paletteer::palettes_d_names$palette[paletteer::palettes_d_names$package == "ggthemes"])
@@ -58,10 +76,16 @@ sort(paletteer::palettes_d_names$palette[paletteer::palettes_d_names$package == 
 pal_test <- paletteer::paletteer_d("ggthemes::Classic_Cyclic")
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_d("ggthemes::Hue_Circle")
+scales::show_col(pal_test)
+
 pal_test <- paletteer::paletteer_d("ggthemes::Classic_10")
 scales::show_col(pal_test)
 
 pal_test <- paletteer::paletteer_d("ggthemes::Classic_10_Medium")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("ggthemes::Classic_20")
 scales::show_col(pal_test)
 
 pal_test <- paletteer::paletteer_d("ggthemes::Tableau_10")
@@ -76,6 +100,11 @@ scales::show_col(pal_test)
 pal_test <- paletteer::paletteer_d("ggthemes::calc")
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_d("ggthemes::few_Dark")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("ggthemes::hc_default")
+scales::show_col(pal_test)
 
 
 # pals --------------------------------------------------------------------
@@ -90,6 +119,16 @@ scales::show_col(pal_test)
 
 
 pal_test <- paletteer::paletteer_d("pals::polychrome")
+scales::show_col(pal_test)
+
+# raibow
+pal_test <- paletteer::paletteer_d("pals::tol")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("pals::kelly")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("pals::watlington")
 scales::show_col(pal_test)
 
 
@@ -123,11 +162,20 @@ scales::show_col(pal_test)
 pal_test <- paletteer::paletteer_d("jcolors::pal3")
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_d("jcolors::pal6")
+scales::show_col(pal_test)
+
 # ggprism -----------------------------------------------------------------
 
 sort(paletteer::palettes_d_names$palette[paletteer::palettes_d_names$package == "ggprism"])
 
 pal_test <- paletteer::paletteer_d("ggprism::prism_dark")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("ggprism::prism_light")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("ggprism::flames")
 scales::show_col(pal_test)
 
 # lisa --------------------------------------------------------------------

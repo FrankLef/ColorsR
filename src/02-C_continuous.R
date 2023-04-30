@@ -26,8 +26,14 @@ sort(paletteer::palettes_c_names$palette[paletteer::palettes_c_names$package == 
 pal_test <- paletteer::paletteer_c("palr::chl_pal", n = 16)
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_c("palr::sst_pal", n = 16)
+scales::show_col(pal_test)
+
 # very nice black to white
 pal_test <- paletteer::paletteer_c("palr::bathy_deep_pal", n = 16)
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_c("palr::ice_pal", n = 16)
 scales::show_col(pal_test)
 
 
@@ -39,7 +45,7 @@ sort(paletteer::palettes_c_names$palette[paletteer::palettes_c_names$package == 
 pal_test <- paletteer::paletteer_c("pals::warmcool", n = 16)
 scales::show_col(pal_test)
 
-# super nice gradients gradients
+# super nice coolwarm gradients
 pal_test <- paletteer::paletteer_c("pals::jet", n = 16)
 scales::show_col(pal_test)
 

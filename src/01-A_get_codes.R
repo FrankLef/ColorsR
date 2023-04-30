@@ -4,7 +4,10 @@
 # also, tis site is actually simpler and easier and it does i both ways
 # https://www.rgbtohex.net
 
-col_name <- "violet"
+col_name <- "aquamarine"
 col_hex <- gplots::col2hex(col_name)
 col_hex
 scales::show_col(col_hex)
+
+
+# highlight example in rmd #E6F0FF
