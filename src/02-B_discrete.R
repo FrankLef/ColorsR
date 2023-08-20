@@ -159,10 +159,25 @@ sort(paletteer::palettes_d_names$palette[paletteer::palettes_d_names$package == 
 pal_test <- paletteer::paletteer_d("jcolors::rainbow")
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_d("jcolors::pal2")
+scales::show_col(pal_test)
+
 pal_test <- paletteer::paletteer_d("jcolors::pal3")
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_d("jcolors::pal4")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("jcolors::pal5")
+scales::show_col(pal_test)
+
 pal_test <- paletteer::paletteer_d("jcolors::pal6")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("jcolors::pal7")
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_d("jcolors::pal9")
 scales::show_col(pal_test)
 
 # ggprism -----------------------------------------------------------------
@@ -193,10 +208,6 @@ sort(paletteer::palettes_d_names$palette[paletteer::palettes_d_names$package == 
 
 pal_test <- paletteer::paletteer_d("LaCroixColoR::Pure")
 scales::show_col(pal_test)
-
-
-sort(paletteer::palettes_d_names$palette[paletteer::palettes_d_names$package == "fishualize"])
-
 
 
 # fishualize --------------------------------------------------------------
