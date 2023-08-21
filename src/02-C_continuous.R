@@ -3,6 +3,10 @@
 unique(paletteer::palettes_c_names$package)
 
 
+# viridis ---------------------------------------------------------------
+sort(paletteer::palettes_c_names$palette[paletteer::palettes_c_names$package == "viridis"])
+
+
 # oompaBase ---------------------------------------------------------------
 sort(paletteer::palettes_c_names$palette[paletteer::palettes_c_names$package == "oompaBase"])
 
