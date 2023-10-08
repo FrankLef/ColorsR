@@ -73,6 +73,9 @@ scales::show_col(pal_test)
 
 sort(paletteer::palettes_d_names$palette[paletteer::palettes_d_names$package == "ggthemes"])
 
+pal_test <- paletteer::paletteer_d("ggthemes::Traffic")
+scales::show_col(pal_test)
+
 pal_test <- paletteer::paletteer_d("ggthemes::Classic_Cyclic")
 scales::show_col(pal_test)
 
