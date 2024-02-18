@@ -68,6 +68,20 @@ scales::show_col(pal_test)
 pal_test <- paletteer::paletteer_c("pals::ocean.haline", n = 16)
 scales::show_col(pal_test)
 
+pal_test <- paletteer::paletteer_c("pals::ocean.thermal", n = 16)
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_c("pals::ocean.amp", n = 16)
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_c("pals::ocean.oxy", n = 16)
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_c("pals::ocean.delta", n = 16)
+scales::show_col(pal_test)
+
+pal_test <- paletteer::paletteer_c("pals::parula", n = 16)
+scales::show_col(pal_test)
 
 # scico -------------------------------------------------------------------
 
